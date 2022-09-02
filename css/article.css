@@ -1,0 +1,86 @@
+#context{
+	margin: 0 auto;
+	margin-top: 448px;
+	width: auto;
+	height: auto;
+	background-color: #FFFFFF;
+}
+
+#bgimage_article{
+	margin:0px;
+	padding:0px;
+	position: fixed;
+	right:0px;
+	bottom:200px;
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+	z-index: -11;
+}
+
+#articles{
+	width: auto;
+	height: auto;
+	top: 100px;
+	position: relative;
+}
+.per_article{
+	margin: 0 auto;
+	margin-bottom: 80px;
+	width: 1200px;
+	height: 250px;
+	box-shadow: 10px 10px 10px 10px #E5DFD3;
+	clear: both;
+	transition: all 0.3s;
+}
+.per_article:hover{
+	box-shadow: 10px 10px 10px 10px gray;
+}
+.article_img{
+	width: 500px;
+	height: 250px;
+	float: left;
+	overflow: hidden;
+}
+.article_img_show{
+	width: 100%;
+	height: 100%;
+	transition: all 0.3s;
+}
+.per_article:hover .article_img_show{
+	transform: scale(1.2);
+}
+.per_article_{
+	float: left;
+	width: 700px;
+}
+.per_article_title{
+	width: 700px;
+	height: 80px;
+	float: left;
+}
+.per_article_title div{
+	margin: 30px;
+	font-family: "黑体";
+	font-size: 35px;
+	color: #000000;
+	padding: 10px;
+}
+.per_article_text{
+	width: 700px;
+	height: 170px;
+	float: left;
+	overflow: hidden;
+}
+.per_article_text div{
+	width: 580px;
+	height: 80px;
+	margin: 30px;
+	font-family: "宋体";
+	font-size: 20px;
+	color: gray;
+	padding: 10px;
+	text-decoration: underline;
+	overflow: hidden;
+}

@@ -1,0 +1,58 @@
+#context{
+	margin: 0 auto;
+	margin-top: 448px;
+	width: auto;
+	height: auto;
+	background-color: #FFFFFF;
+}
+
+#albums{
+	margin: 0 auto;
+	padding: 70px 50px 50px 140px;
+	text-align: center;
+	width: auto;
+	height: auto;
+	
+}
+
+#bgimage_album{
+	margin:0px;
+	padding:0px;
+	position: fixed;
+	right:0px;
+	bottom:200px;
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+	z-index: -11;
+}
+
+.smallpicshow{
+	width: 200px;
+	height: 200px;
+	float: left;
+	text-align: center;
+	vertical-align: middle;
+	margin: 60px;
+}
+.smallpicshow_zoom{
+	width: 200px;
+	height: 200px;
+	box-shadow: 10px 10px 10px 10px #E5DFD3;
+	float: left;
+	overflow: hidden;
+	text-align: center;
+	vertical-align: middle;
+	transition: all 0.3s;
+}
+.smallpicshow:hover .smallpicshow_zoom{
+	width: 250px;
+	height: 250px;
+	transform: rotate(3deg);
+	box-shadow: 0px 0px 35px 35px #D6CCB7;
+}
+.smallpic{
+	width: 100%;
+	height: 100%;
+}

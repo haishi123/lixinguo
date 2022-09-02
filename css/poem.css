@@ -1,0 +1,79 @@
+#context{
+	margin: 0 auto;
+	margin-top: 448px;
+	width: auto;
+	height: auto;
+	background-color: #FFFFFF;
+}
+
+.poem_text{
+	margin: 0 auto;
+	margin-top: 150px;
+	width: 950px;
+	height: auto;
+	text-align: center;
+	color: #000000;
+	font-family: "楷体";
+	font-size: 30px;
+}
+
+#bgimage_poem{
+	margin:0px;
+	padding:0px;
+	position: fixed;
+	right:0px;
+	bottom:-130px;
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+	z-index: -11;
+}
+
+#poemShapetitle{
+	width: 100px;
+	height: 260px;
+	top: 70px;
+	left: 0px;
+	position: relative;
+	margin: 0 auto;
+	text-align: center;
+}
+#poemShapetitle_tri{
+	width: 100px;
+	height: 100px;
+	top: 0px;
+	left: 0px;
+	position: relative;
+}
+#poemShapetitle_title{
+	top: 10px;
+	left: 0px;
+	position: relative;
+	color: gray;
+	font-family: "agency fb";
+	font-size: 20px;
+}
+#poemShapetitle_cir{
+	width: 100px;
+	height: 100px;
+	top: 20px;
+	left: 0px;
+	position: relative;
+}
+
+.poem_line{
+	line-height: 80px;
+}
+#poem_anlysis{
+	margin: 0 auto;
+	width: 660px;
+	line-height: 40px;
+	font-family: "楷体";
+	font-size: 20px;
+	color: #000000;
+	text-align: left;
+	top: 60px;
+	left: 0px;
+	position: relative;
+}

@@ -1,0 +1,99 @@
+#context{
+	margin: 0 auto;
+	margin-top: 60px;
+	width: auto;
+	height: auto;
+	background-color: #FFFFFF;
+}
+
+#bgimage_article{
+	margin:0px;
+	padding:0px;
+	position: fixed;
+	right:0px;
+	bottom:0px;
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+	z-index: -11;
+}
+#cttitle_text{
+	width: auto;
+	height: 260px;
+}
+#Title{
+	padding: 30px 0px 0px 170px;
+	font-size: 40px;
+	width: auto;
+	height: 50px;
+	left: 20px;
+}
+#Title_info{
+	padding: 0px 0px 0px 170px;
+	font-size: 20px;
+	width: auto;
+	clear: both;
+	color: gray;
+}
+#CreatTimeImg{
+	width: 20px;
+	height: 20px;
+}
+/* 下一个按钮 */
+.next-sign-title{
+    width: auto;
+    height: 35px;
+    left: 45px;
+    position: relative;
+    float: left;
+}
+#next-tri-title{
+	width: 30px;
+	height: 30px;
+	transform: rotate(60deg);
+	top: 0px;
+	left: 0px;
+	position: relative;
+	float: left;
+}
+#next-line-title{
+	width: 650px;
+	height: 1px;
+	border-bottom: 1px solid #E5DFD3;
+	top: 18px;
+	left: 50px;
+	position: relative;
+	float: left;
+}
+
+
+
+#article{
+	width: auto;
+	height: auto;
+	top: 100px;
+	position: relative;
+}
+#Text{
+	padding: 70px;
+	padding-bottom: 150px;
+	margin: 0 auto;
+	margin-top: 0px;
+	margin-bottom: 100px;
+	width: 1200px;
+	height: auto;
+	border-radius: 15px;
+	box-shadow:0px 0px 10px 10px lightgray;
+	
+	font-family: "宋体";
+	font-size: 19px;
+	line-height: 70px;
+}
+hr{
+	position: relative;
+	margin: 2rem auto;
+	width: calc(100% - 4px);
+	border: 2px dashed #a4d8fa;
+	background: #fff;
+}
